@@ -57,7 +57,7 @@ const myBill = 100;
 const myTax = 12.2;
 
 let check = (myBill, myTax) => {
-  let calc = myBill + myTax;
+  let calc = myBill * myTax;
   return "Your total bill is" + calc + "$";
 };
 

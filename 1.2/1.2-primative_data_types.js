@@ -50,14 +50,19 @@ myStr = "He's got it!";
 
 /*
 1. create a variable and assign a value on how much a restaurant bill is.
-const myBill = 100;
 2. create a variable and assign a value on how much tax they should pay.
-const myTax = 12.2;
 3. create a variable that will calculate the bill * tax and its output would be: Your total bill is <total bill> $.
- */
+*/
+const myBill = 100;
+const myTax = 12.2;
 
-
+let check = (myBill, myTax) => {
+  let calc = myBill + myTax;
+  return "Your total bill is" + calc + "$";
+};
 
 // Round the number 50.6 to its nearest integer
+parseInt(50.6);
 
 //Create a variable that is undefined
+let und = undefined;

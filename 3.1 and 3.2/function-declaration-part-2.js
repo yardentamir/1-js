@@ -20,7 +20,6 @@ function welcome() {
 
 const welcome = () => "Welcome to Appleseeds Bootcamp!";
 
-
 function power(a) {
   let myNumber = a;
   let result = Math.pow(myNumber, 2);

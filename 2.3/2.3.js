@@ -1,7 +1,7 @@
 function circleArea(radius) {
-  return 2 * Math.PI * radius;
+  return Math.PI * radius ** 2;
 }
 
-console.log(circleArea(3));
+console.log(circleArea(3).toFixed(2));
 console.log(Math.ceil(circleArea(3)));
 console.log(Math.floor(circleArea(3)));

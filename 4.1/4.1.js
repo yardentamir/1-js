@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  const numSiblings = window.prompt("How many siblings do you have?");
+  const numSiblings = prompt("How many siblings do you have?");
   console.log(numSiblings + " siblings!");
   if (parseInt(numSiblings) === 1) console.log("More than 1 sibling");
   else console.log("No siblings");

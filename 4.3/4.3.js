@@ -16,15 +16,10 @@
   };
 
   console.log(whoWins());
+  
 
   const myMax = Math.max(scoreTeam1(), scoreTeam2(), scoreTeam3());
-  if (myMax === scoreTeam1) {
-    console.log("team1 wins");
-  }
-  if (myMax === scoreTeam2) {
-    console.log("team2 wins");
-  }
-  if (myMax === scoreTeam3) {
-    console.log("team3 wins");
-  }
+  if (myMax === scoreTeam1()) console.log("team1 wins");
+  else if (myMax === scoreTeam2()) console.log("team2 wins");
+  else if (myMax === scoreTeam3()) console.log("team3 wins");
 })();
